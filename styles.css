@@ -7,3 +7,4 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition-duration:.01ms!important;animation-duration:.01ms!important}}
 @media(min-width:791px){.hero h1{font-size:clamp(28px,3vw,40px);line-height:1.05}}
 @media(max-width:790px){.title-break{display:none}}
+.hero{position:relative}.hero-logos{display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px;margin-top:26px}.hero-logos img{width:96px;height:auto}@media(min-width:791px){.hero{padding-right:170px}.hero-logos{position:absolute;top:22px;right:22px;width:110px;margin:0;flex-direction:column;flex-wrap:nowrap;gap:18px}.hero-logos img{width:110px;height:auto}}
