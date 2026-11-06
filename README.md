@@ -6,4 +6,4 @@ Deployed from the `main` branch of `embodiedSLA/embodiedSLA.github.io` to `https
 
 Real-world videos live in `video/` and are listed in the Deployment section of `index.html`. MP4 (H.264) is recommended for broad browser support.
 
-The arXiv link intentionally remains disabled until its URL is supplied. The GitHub button points to the requested repository.
+The GitHub button points to the requested repository.
