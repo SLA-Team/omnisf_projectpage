@@ -19,20 +19,6 @@ document.querySelectorAll('.mobile-toc a').forEach((link) => {
   link.addEventListener('click', () => document.querySelector('.mobile-toc').removeAttribute('open'));
 });
 
-document.querySelectorAll('.video-card').forEach((card) => {
-  const source = card.dataset.src?.trim();
-  if (!source) return;
-  const stage = card.querySelector('.video-stage');
-  const video = document.createElement('video');
-  video.controls = true;
-  video.preload = 'metadata';
-  video.playsInline = true;
-  video.src = source;
-  video.setAttribute('aria-label', card.querySelector('h3')?.textContent || 'Robot demonstration');
-  stage.replaceWith(video);
-  card.classList.add('has-video');
-});
-
 const copyButton = document.getElementById('copy-bibtex');
 copyButton?.addEventListener('click', async () => {
   try {
